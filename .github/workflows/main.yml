@@ -11,7 +11,7 @@ on:
       - gd
 jobs:
   push:
-    runs-on: jenkins-slave
+    runs-on: self-hosted
     timeout-minutes: 120
     strategy:
       matrix:
